@@ -1,0 +1,34 @@
+{
+  "name": "react16-webpack4-babel-scratch",
+  "version": "1.0.0",
+  "description": "Setting up React without the Create-React-App CLI with Webpack 4 and Babel.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bimbram/react16-webpack4-babel-sractch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bimbram/react16-webpack4-babel-sractch/issues"
+  },
+  "homepage": "https://github.com/bimbram/react16-webpack4-babel-sractch#readme",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
